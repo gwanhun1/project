@@ -82,9 +82,79 @@ img{
      width: 40%; 
      height: 300px;
 }
+ h3{
+            font-size: 25px;
+            text-align: center;
+            text-transform: capitalize;
+            white-space: nowrap;
+            color: transparent;
+            margin :0;
+            text-decoration-line: underline;
+            margin-top: 20px;
+            padding-top: 30px;
+            margin-top: 30px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,-50%);
+      }
+      h3::before{
+            content: '처음은 낯가리지만 친해지면 말이 많아져요!!!!';
+            position: absolute;
+            left: 0;
+            color: black;
+            overflow: hidden;
+            border-right: 2px solid black;
+            animation: typing 8s steps(24) infinite;
+      }
+      @keyframes typing{
+            0%{
+                  width: 0%;
+            }
+            50%{
+                  width: 100%;
+            }
+            100%{
+                  width: 0%;
+            }
+      }
 @media(max-width:700px){
       .menu{
             display: block;
+      }
+      h3{
+            font-size: 15px;
+            text-align: center;
+            text-transform: capitalize;
+            white-space: nowrap;
+            color: transparent;
+            margin :0;
+            text-decoration-line: underline;
+            margin-top: 20px;
+            padding-top: 30px;
+            margin-top: 30px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,-50%);
+      }
+      h3::before{
+            content: '처음은 낯가리지만 친해지면 말이 많아져요!!!!';
+            position: absolute;
+            left: 0;
+            color: black;
+            overflow: hidden;
+            border-right: 2px solid black;
+            animation: typing 8s steps(24) infinite;
+      }
+      @keyframes typing{
+            0%{
+                  width: 0%;
+            }
+            50%{
+                  width: 100%;
+            }
+            100%{
+                  width: 0%;
+            }
       }
       }
 </style>
