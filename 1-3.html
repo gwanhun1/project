@@ -106,6 +106,41 @@ h4,.skills{
       .menu{
             display: block;
       }
+      h2{
+            font-size: 20px;
+            text-align: center;
+            text-transform: capitalize;
+            white-space: nowrap;
+            color: transparent;
+            margin :0;
+            text-decoration-line: underline;
+            margin-top: 20px;
+            padding-top: 30px;
+            margin-top: 30px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,-50%);
+      }
+      h2::before{
+            content: '"성공은 매일 반복되는 작은 노력의 합이다. "';
+            position: absolute;
+            left: 0;
+            color: black;
+            overflow: hidden;
+            border-right: 3px solid black;
+            animation: typing 6s steps(26) infinite;
+      }
+      @keyframes typing{
+            0%{
+                  width: 0%;
+            }
+            50%{
+                  width: 100%;
+            }
+            100%{
+                  width: 0%;
+            }
+      }
       }
 </style>
 
