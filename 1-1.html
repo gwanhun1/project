@@ -48,6 +48,7 @@ h2{
       color: gray;
 }
 h3{
+      padding-top: 130px;
       font-size: 25px;
       text-align: center;
 }
@@ -77,6 +78,41 @@ img:hover{
       font-weight: normal;
 
 }
+      h2{
+            font-size: 50px;
+            text-align: center;
+            text-transform: capitalize;
+            white-space: nowrap;
+            color: transparent;
+            margin :0;
+            text-decoration-line: underline;
+            margin-top: 20px;
+            padding-top: 30px;
+            margin-top: 30px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,-50%);
+      }
+      h2::before{
+            content: '  26살.  ';
+            position: absolute;
+            left: 0;
+            color: gray;
+            overflow: hidden;
+            border-right: 2px solid gray;
+            animation: typing 4s steps(15) infinite;
+      }
+      @keyframes typing{
+            0%{
+                  width: 0%;
+            }
+            50%{
+                  width: 100%;
+            }
+            100%{
+                  width: 0%;
+            }
+      }
 @media(max-width:700px){
       .img{
             width: 230px;
@@ -84,6 +120,41 @@ img:hover{
       }
       .menu{
             display: block;
+      }
+       h2{
+            font-size: 35px;
+            text-align: center;
+            text-transform: capitalize;
+            white-space: nowrap;
+            color: transparent;
+            margin :0;
+            text-decoration-line: underline;
+            margin-top: 20px;
+            padding-top: 30px;
+            margin-top: 30px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,-50%);
+      }
+      h2::before{
+            content: '  26살.  ';
+            position: absolute;
+            left: 0;
+            color: gray;
+            overflow: hidden;
+            border-right: 2px solid gray;
+            animation: typing 4s steps(15) infinite;
+      }
+      @keyframes typing{
+            0%{
+                  width: 0%;
+            }
+            50%{
+                  width: 100%;
+            }
+            100%{
+                  width: 0%;
+            }
       }
       }
 </style>
@@ -102,7 +173,7 @@ img:hover{
 
       <div id="about"> ABOUT ME
             <div id="me">
-                  대학교 4학년 전자공학과, 과 특성상 코딩을 깊이 다루진 못했지만 <br>
+                  조선대학교 4학년 전자공학과, 과 특성상 코딩을 깊이 다루진 못했지만 <br>
                   코딩에 흥미를 느끼며, 미적감각이 높진 않지만 노력을 통하여<br>
                   뒤처지지 않는 사람이 되겠습니다.
             </div>
