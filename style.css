@@ -554,3 +554,56 @@ body {
       transform: scale(1.2);
       cursor: pointer;
 }
+@media screen and (max-width: 800px){
+      .first{
+      font-size: 70%;
+      }
+      .name{
+      font-size: 50%;
+      }
+      .what{
+      font-size: 20%;
+      }
+
+      .menu{
+            top: 50%;
+            left: 50%;
+            position: relative;
+      }
+      .aboutMe{
+            font-size: 130%;
+            height: 100px;
+      }
+      .aboutPhoto{
+            margin-top: 350px;
+            width: 300px;
+            height: 350px;
+      }
+      .aboutContact{
+            margin-top: 220px;
+            margin-left: 100px;
+            width: 130px;
+            font-size: 20px;
+      }
+      .aboutWord{
+            margin-top: 620px;
+            left: 1%;
+            width: 435px;
+      }
+      .side{
+            top: 10%;
+      }
+      .skillMain{
+            font-size: 50px;
+      }
+      .s{
+            font-size: 50px;
+      }
+      .skillOne{
+            left: 15%;
+      }
+      .skillTwo{
+            top: 566%;
+            left: 15%;
+      }
+}
