@@ -594,6 +594,7 @@ body {
             margin-top: 550px;
             left: -80px;
             width: 330px;
+            color: #757470;
       }
       .font{
             font-size: 20px;
@@ -617,7 +618,7 @@ body {
       }
       .skillTwo{
             font-size: 24px;
-            top: 550%;
+            top: 555%;
             margin-top: 320px;            
             left: 15%;
       }
