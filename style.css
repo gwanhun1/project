@@ -60,6 +60,9 @@ body {
       color: #f9f7f1;
       animation: firstBack 2s ;
 }
+.first:hover{
+      color: #c5ba9a;
+}
 .name {
       position: absolute;
       top: 40%;
@@ -68,6 +71,9 @@ body {
       font-weight: bold;
       color: #f9f7f1;
       animation: secondBack 2s;
+}
+.name:hover{
+      color: #c5ba9a;
 }
 
 .what {
@@ -78,6 +84,9 @@ body {
       font-weight: bold;
       color: #f9f7f1;
       animation: thirdBack 3s;
+}
+.what:hover{
+      color: #c5ba9a;
 }
 @keyframes firstBack{
       from{
@@ -204,26 +213,32 @@ body {
       background-size: 100% 100%;
 }
 .aboutMe{
-      margin-top: 80px;
-      transform: scaleY(3.8);
+      transform: scale(1.2, 4.5);
+      width: 400px;
       font-size: 75px;
       font-weight: bold;
       color: #f9f7f1;
       left: 48%;
+      top: -1%;
       position: absolute;
-
 }
 .aboutWord{
-      margin-left: 280px;
+      left: 60%;
       display: inline;
-      margin-top: 600px;
+      margin-top:-300px;
       font-weight: 200;
       position: absolute;
       font-size: 18px;
       transform: translate(-50%, -50%);
-      width: 700px;
+      width: 350px;
       font-family: 'MICEGothic Bold';
 }
+.aboutBox{
+      background-color: #c5ba9a;
+      width: 550px;
+      height: 100vh;
+      margin-top: -100px;    
+      transform: translate(20%,13%);}
 .aboutContact{
       cursor: pointer;
       text-align: center;
@@ -231,8 +246,8 @@ body {
       color: rgb(233, 162, 56);
       background-color: #2f2f2f;
       border-radius: 5%;
-      margin-top: 270px;
-      margin-left: 140px;
+      margin-top: 250px;
+      right: 1%;
       padding: 10px;
       padding-bottom: 12px;
       position: absolute;
@@ -270,7 +285,7 @@ body {
       display: inline;
 }
 .aboutPhoto{
-      margin-top: 450px;
+      margin-top: -480px;
       transform: translate(-50%, -50%);
       position: absolute;
       height: 440px;
@@ -278,26 +293,40 @@ body {
       border-radius: 5%;
       width: 370px;
       display: block;
-      left: 35%;
+      left: 40%;
       
 
 }
 .skillMain {
-      margin-top: 170px;
-      margin-right: 0px;
+      transform: scale(1.6,2.8);
+      margin-top: 70px;
       font-size: 100px;
       font-weight: bold;
       color: #f9f7f1;
-      left: 32%;
-      width: 500px;
+      left: -57%;
+      width: 400px;
       position: absolute;
-      transform: scaleY(2.8);
 }
 .s{  
       margin-left: 0px;
       font-size: 100px;
       transform: scaleY(1.9);
       display: inline;
+}
+.skillList{
+      background-color: #c5ba9a;
+            width: 550px;
+            height: 100vh;
+            margin-top: -100px;
+            transform: translate(20%, 12%);
+}
+.skillDes{
+      color: #bebcb2;
+      font-size: 22px;
+      position: absolute;
+      text-align: right;
+      left: -35%;
+      margin-top: 55%;
 }
 .skillWord {
       display: inline;
@@ -307,44 +336,40 @@ body {
       transform: translate(-50%, -50%);
       width: 1000px;
 }
-.skillTwo{
-      left: 27%;
-      position: absolute;
-      margin-top: 400px;
-}
+
 .skillOne{
-      left: 52%;    
-      margin-top: 280px;    
+      left: 17.7%;    
+      margin-top: 110px;    
       position: absolute;
 }
 .js{
       height: 40px;
-      width: 500px;
+      width: 800px;
       margin-top: 30px;
 }
 .js span{
       margin-top: 10px;
       display: block;
-      width: 75%;
-      height: 40px;
-      line-height: 40px;
+      width: 70%;
+      height: 30px;
+      line-height: 25px;
       text-align: right;
       background: rgb(233, 162, 56);
       box-sizing: border-box;
       color: #f9f7f1;
-      animation: stock;
+      animation: js 2s;
       border-radius: 40px;
 }
 .css{
       height: 40px;
-      width: 500px;
+      width: 800px;
       margin-top: 80px;}
 .css span{
       margin-top: 10px;
       display: block;
-      width: 85%;
-      height: 40px;
-      line-height: 40px;
+      width: 80%;
+      height: 30px;
+      line-height: 25px;
       text-align: right;
       background: rgb(233, 162, 56);
       box-sizing: border-box;
@@ -355,15 +380,15 @@ body {
 .html{
 
       height: 40px;
-      width: 500px;
+      width: 800px;
       margin-top: 80px;
 }
 .html span{
       display: block;
       margin-top: 10px;
       width: 90%;
-      height: 40px;
-      line-height: 40px;
+      height: 30px;
+      line-height: 30px;
       text-align: right;
       background: rgb(233, 162, 56);
       box-sizing: border-box;
@@ -373,16 +398,16 @@ body {
 }
 .github {
       height: 40px;
-      width: 500px;
-      margin-top: 30px;
-}
+      width: 800px;
+      margin-top: 80px;
+      }
 
 .github span {
       margin-top: 10px;
       display: block;
-      width: 75%;
-      height: 40px;
-      line-height: 40px;
+      width: 50%;
+      height: 30px;
+      line-height: 30px;
       text-align: right;
       background: rgb(233, 162, 56);
       box-sizing: border-box;
@@ -392,16 +417,16 @@ body {
 }
 .react {
       height: 40px;
-      width: 500px;
+      width: 800px;
       margin-top: 80px;
 }
 
 .react span{
       margin-top: 10px;
       display: block;
-      width: 75%;
-      height: 40px;
-      line-height: 40px;
+      width: 50%;
+      height: 30px;
+      line-height: 30px;
       text-align: right;
       background: rgb(233, 162, 56);
       box-sizing: border-box;
@@ -410,70 +435,137 @@ body {
       border-radius: 40px;
 }
 @keyframes js{
-      0% {width: 0;}
-      100%{width: 70%;}
+from{
+      width: 0%;
+}to{
+      width: 70%;
+}
+}
+@keyframes jsb{
+from{
+      width: 70%;
+}to{
+      width: 0%;
+}
 }
 @keyframes css{
-      0% {width: 0;}
-      100%{width: 80%;}
+from{
+      width: 0%;
+}to{
+      width: 80%;
+}
+}
+@keyframes cssb{
+from {
+            width: 80%;
+      }
+
+      to {
+            width: 0%;
+      }
 }
 @keyframes html{
-      0% {width: 0;}
-      100%{width: 90%;}
+from {
+            width: 0%;
+      }
+
+      to {
+            width: 90%;
+      }
+}
+@keyframes htmlb {
+      from {
+            width: 90%;
+      }
+
+      to {
+            width: 0%;
+      }
 }
 @keyframes github{
-      0% {width: 0;}
-      100%{width: 50%;}
+from {
+            width: 0%;
+      }
+
+      to {
+            width: 50%;
+      }
+}
+@keyframes githubb {
+      from {
+            width: 50%;
+      }
+
+      to {
+            width: 0%;
+      }
 }
 @keyframes react{
-      0% {width: 0;}
-      100%{width: 50%;}
+from {
+            width: 0%;
+      }
+
+      to {
+            width: 50%;
+      }
+}
+@keyframes reactb {
+      from {
+            width: 50%;
+      }
+
+      to {
+            width: 0%;
+      }
 }
 .projectMain {
       margin-top: 80px;
-      font-size: 70px;
       font-weight: bold;
       color: #f9f7f1;
-      left: 50%;
+      left: 91%;
+      top: -10%;
+      font-size: 150px;
+      width: 500px;
       position: absolute;
       transform: translate(-50%, -50%);
 
 }
-.myprojectOne{
-      background-color: #cfcabb;
+.projectBox{
+      background-color: #c5ba9a;
+      width: 550px;
+      height: 100vh;
+      margin-top: -100px;
+      transform: translate(20%, 12%);
+}
+.projectList{
       height: 700px;
-      width: 460px;
+      width: 1500px;
+      left: -660px;
+      top: 110px;
+      position: absolute;
+}
+.myprojectOne{
+      background-color: #bebcb2;
+      height: 700px;
+      width: 480px;
+      left: 0%;
       position: absolute;
       display: inline;
-      margin-top:200px;
-      left : 0.5%;
 }
 .myprojectTwo {
-      background-color: #cfcabb;
+      background-color: #bebcb2;
       height: 700px;
-      width: 460px;
+      width: 480px;
+      left: 33%;
       position: absolute;
       display: inline;
-      margin-top: 200px;
-      left: 25.5%;
 }
 .myprojectThree {
-      background-color: #cfcabb;
+      background-color: #bebcb2;
       height: 700px;
-      width: 460px;
+      width: 480px;
       position: absolute;
-      display: inline;
-      margin-top: 200px;
-      left: 50.5%;
-}
-.myprojectFour {
-      background-color: #cfcabb;
-      height: 700px;
-      width: 450px;
-      position: absolute;
-      display: inline;
-      margin-top: 200px;
-      left: 75.5%;
+      left:66%;
 }
 
 .contactMain {
@@ -520,8 +612,7 @@ body {
       width: 70px;
       position: fixed;
       right: 5%;
-      top: 30%;
-      
+      top: 30%;   
 }
 .up{  margin-top: 5px;
       margin-left: 20px;
@@ -556,188 +647,318 @@ body {
       transform: scale(1.2);
       cursor: pointer;
 }
-@media screen and (max-width: 800px){
-      .first{
-      font-size: 50%;
-      }
-      .name{
-      font-size: 30%;
-      top: 330px;
-      }
-      .what{
-      font-size: 10%;
-      top: 420px;
-      }
+@media screen and (max-width: 800px) {
+            .first {
+                  font-size: 50%;
+            }
 
-      .menu{
-            top: 50%;
-            left: 50%;
-            position: relative;
-      }
-      .aboutMe{
-            font-size: 80%;
-            height: 160px;
-            margin-top: 280px;
-      }
-      .aboutPhoto{
-            margin-top: 310px;
-            width: 160px;
-            height: 250px;
-      }
-      .aboutContact{
-            margin-top: 220px;
-            margin-left: 40px;
-            width: 100px;
-            font-size: 15px;
-      }
-      .aboutWord{
-            margin-top: 550px;
-            left: -80px;
-            width: 330px;
-            color: #757470;
-      }
-      .font{
-            font-size: 20px;
-            margin-top: 100px;
-      }
-      .fontTwo{
-            font-size: 31px;
-      }
-      .skillMain{
-      margin-right: 0px;
-      width: 0;
-            font-size: 50px;
-      }
-      .s{
-            font-size: 30px;
-      }
-      .skillOne{
-            font-size: 24px;
-            left: 15%;
-            width: 15%;
-      }
-      .skillTwo{
-            font-size: 24px;
-            top: 555%;
-            margin-top: 320px;            
-            left: 15%;
+            .name {
+                  font-size: 30%;
+                  top: 330px;
+            }
+
+            .what {
+                  font-size: 10%;
+                  top: 420px;
+            }
+
+            .menu {
+                  top: 50%;
+                  left: 50%;
+                  position: relative;
+            }
+            .aboutMe{
+                  width: 130px;
+                  font-size: 20px;
+            }
+            .aboutWord{
+                  margin-top: -390px;
+                  margin-left: 30px;
+                  position: absolute;
+                  width: 200px;
+                  font-size: 4px;
+            }
+            .font{
+                  font-size: 13px;
+            }
+            .fontTwo{
+                  font-size: 17px;
+            }
+            .aboutContact{
+                  margin-top: 60px;
+                  margin-right: -20px;
+                  width: 60px;
+                  height: 10px;
+                  font-size: 5px;
+            }
+            .aboutPhoto{
+                  width: 130px;
+                  height: 180px;
+                  left: 31%;
+            }
+            .skillMain{
+                  left: -20%;
+                  width: 200px;
+                  font-size: 25px;            }
+            .s{
+                  width: 160px;
+                  font-size: 17px;
+            }
+            .skillOne {
+                  left: 17.7%;
+                  margin-top: 110px;
+                  position: absolute;
+            }
+
+            .js {
+                  color: white;
+                  font-size: 15px;
+                  height: 40px;
+                  width: 250px;
+                  margin-top: 60px;
+                  margin-left: -130px;
+            }
+
+            .js span {
+                  margin-top: 10px;
+                  display: block;
+                  width: 70%;
+                  height: 15px;
+                  line-height: 15px;
+                  text-align: right;
+                  background: rgb(233, 162, 56);
+                  box-sizing: border-box;
+                  color: #f9f7f1;
+                  animation: js 2s;
+                  border-radius: 40px;
+            }
+
+            .css {
+                  color: white;
+                  font-size: 15px;
+                  height: 40px;
+                  width: 250px;
+                  margin-top: 30px;
+                  margin-left: -130px;
+                  }
+
+            .css span {
+                  margin-top: 10px;
+                  display: block;
+                  width: 80%;
+                  height: 15px;
+                  line-height: 15px;
+                  text-align: right;
+                  background: rgb(233, 162, 56);
+                  box-sizing: border-box;
+                  color: #f9f7f1;
+                  animation: css;
+                  border-radius: 40px;
+            }
+
+            .html {
+                  color: white;
+                  font-size: 15px;
+                  height: 40px;
+                  width: 250px;
+                  margin-top: 30px;
+                  margin-left: -130px;
+                  }
+
+            .html span {
+                  display: block;
+                  margin-top: 10px;
+                  width: 90%;
+                  height: 15px;
+                  line-height: 15px;
+                  text-align: right;
+                  background: rgb(233, 162, 56);
+                  box-sizing: border-box;
+                  color: #f9f7f1;
+                  animation: html;
+                  border-radius: 40px;
+            }
+
+            .github {
+                  color: white;
+                  font-size: 15px;
+                  height: 40px;
+                  width: 250px;
+                  margin-top: 30px;
+                  margin-left: -130px;
+                  }
+
+            .github span {
+                  margin-top: 10px;
+                  display: block;
+                  width: 50%;
+                  height: 15px;
+                  line-height: 15px;
+                  text-align: right;
+                  background: rgb(233, 162, 56);
+                  box-sizing: border-box;
+                  color: #f9f7f1;
+                  animation: github;
+                  border-radius: 40px;
+            }
+
+            .react {
+                  color: white;
+                  font-size: 15px;
+                  height: 40px;
+                  width: 250px;
+                  margin-top: 30px;
+                  margin-left: -130px;
+                  }
+
+            .react span {
+                  margin-top: 10px;
+                  display: block;
+                  width: 50%;
+                  height: 15px;
+                  line-height: 15px;
+                  text-align: right;
+                  background: rgb(233, 162, 56);
+                  box-sizing: border-box;
+                  color: #f9f7f1;
+                  animation: react;
+                  border-radius: 40px;
+            }
+            .skillDes{
+                  color: #2f2f2f;
+                  font-size: 12px;
+                  text-align: left;
+                  margin-left: 100px 
+            }
+            .projectMain{
+                  width: auto;
+                  font-size: 50px;
+                  left: 100px;
+            }
+
+            .contactMain {
+                  font-size: 50px;
+            }
+
+            .contactMenu {
+                  font-size: 60px;
+            }
+
+            .email {
+                  font-size: 20px;
+            }
+
+            .myprojectOne,
+            .myprojectTwo,
+            .myprojectThree,
+            .projectList
+            {
+                  display: none;
+            }
+      .skillList,.aboutBox,.projectBox {
+            width: 150px;
       }
       .side{
-            font-size: 20px;
-            right: 1%;
+            font-size: 18px;
+            width: 30px;
       }
-      .js {
-            height: 40px;
-            width: 300px;
-            margin-top: 30px;
-      }
-
-      .js span {
-            margin-top: 10px;
-            display: block;
-            width: 75%;
-            height: 20px;
-            line-height: 20px;
-            text-align: right;
-            background: rgb(233, 162, 56);
-            box-sizing: border-box;
-            color: #f9f7f1;
-            animation: stock;
-            border-radius: 40px;
-      }
-
-      .css {
-            height: 40px;
-            width: 300px;
-            margin-top: 30px;
-      }
-
-      .css span {
-            margin-top: 10px;
-            display: block;
-            width: 85%;
-            height: 20px;
-            line-height: 20px;
-            text-align: right;
-            background: rgb(233, 162, 56);
-            box-sizing: border-box;
-            color: #f9f7f1;
-            animation: css;
-            border-radius: 40px;
-      }
-
-      .html {
-
-            height: 40px;
-            width: 300px;
-            margin-top: 30px;
-      }
-
-      .html span {
-            display: block;
-            margin-top: 10px;
-            width: 90%;
-            height: 20px;
-            line-height: 20px;
-            text-align: right;
-            background: rgb(233, 162, 56);
-            box-sizing: border-box;
-            color: #f9f7f1;
-            animation: html;
-            border-radius: 40px;
-      }
-
-      .github {
-            height: 40px;
-            width: 300px;
-            margin-top: 30px;
-      }
-
-      .github span {
-            margin-top: 10px;
-            display: block;
-            width: 75%;
-            height: 20px;
-            line-height: 20px;
-            text-align: right;
-            background: rgb(233, 162, 56);
-            box-sizing: border-box;
-            color: #f9f7f1;
-            animation: github;
-            border-radius: 40px;
-      }
-
-      .react {
-            height: 40px;
-            width: 300px;
-            margin-top: 30px;
-      }
-
-      .react span {
-            margin-top: 10px;
-            display: block;
-            width: 75%;
-            height: 20px;
-            line-height: 20px;
-            text-align: right;
-            background: rgb(233, 162, 56);
-            box-sizing: border-box;
-            color: #f9f7f1;
-            animation: react;
-            border-radius: 40px;
-      }
-      .contactMain{
-            font-size: 50px;
-      }
-      .contactMenu{
-            font-size: 60px;
-      }
-      .email{
-            font-size: 20px;
-      }
-      .myprojectOne,.myprojectTwo,.myprojectThree,.myprojectFour{
-            display: none;
-
-      }
-
+            @keyframes js {
+                  from {
+                        width: 0%;
+                  }
+      
+                  to {
+                        width: 70%;
+                  }
+            }
+      
+            @keyframes jsb {
+                  from {
+                        width: 70%;
+                  }
+      
+                  to {
+                        width: 0%;
+                  }
+            }
+      
+            @keyframes css {
+                  from {
+                        width: 0%;
+                  }
+      
+                  to {
+                        width: 80%;
+                  }
+            }
+      
+            @keyframes cssb {
+                  from {
+                        width: 80%;
+                  }
+      
+                  to {
+                        width: 0%;
+                  }
+            }
+      
+            @keyframes html {
+                  from {
+                        width: 0%;
+                  }
+      
+                  to {
+                        width: 90%;
+                  }
+            }
+      
+            @keyframes htmlb {
+                  from {
+                        width: 90%;
+                  }
+      
+                  to {
+                        width: 0%;
+                  }
+            }
+      
+            @keyframes github {
+                  from {
+                        width: 0%;
+                  }
+      
+                  to {
+                        width: 50%;
+                  }
+            }
+      
+            @keyframes githubb {
+                  from {
+                        width: 50%;
+                  }
+      
+                  to {
+                        width: 0%;
+                  }
+            }
+      
+            @keyframes react {
+                  from {
+                        width: 0%;
+                  }
+      
+                  to {
+                        width: 50%;
+                  }
+            }
+      
+            @keyframes reactb {
+                  from {
+                        width: 50%;
+                  }
+      
+                  to {
+                        width: 0%;
+                  }
+            }
 }

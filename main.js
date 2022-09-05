@@ -16,6 +16,11 @@ const $sideAbout = document.querySelector(".sideAbout");
 const $sideSkill = document.querySelector(".sideSkill");
 const $sideProject = document.querySelector(".sideProject");
 const $down = document.querySelector(".down");
+const $jsz = document.querySelector(".jsz");
+const $cssz = document.querySelector(".cssz");
+const $htmlz = document.querySelector(".htmlz");
+const $githubz = document.querySelector(".githubz");
+const $reactz = document.querySelector(".reactz");
 
 window.addEventListener('scroll', function () { 
       let value = this.window.scrollY;
@@ -63,7 +68,49 @@ $aboutContact.addEventListener('click', function () {
       $contactBack.scrollIntoView({ behavior: "smooth", block:"center" });
 });
 
+window.addEventListener('scroll', function () { 
+      let value = this.window.scrollY;
+      if (value > 4800) {
+            $jsz.style.animation = 'js 1.5s ease-out forwards';
+      } else { 
+            $jsz.style.animation = 'jsb 1.5s ease-out forwards';
+      }
+})
+window.addEventListener('scroll', function () { 
+      let value = this.window.scrollY;
+      if (value > 4800) {
+            $cssz.style.animation = 'css 1.6s ease-out forwards';
+      } else { 
+            $cssz.style.animation = 'cssb 1.6s ease-out forwards';
+      }
+})
+window.addEventListener('scroll', function () { 
+      let value = this.window.scrollY;
+      if (value > 4800) {
+            $htmlz.style.animation = 'html 1.4s ease-out forwards';
+      } else { 
+            $htmlz.style.animation = 'htmlb 1.4s ease-out forwards';
+      }
+})
+window.addEventListener('scroll', function () { 
+      let value = this.window.scrollY;
+      if (value > 4800) {
+            $githubz.style.animation = 'github 1.7s ease-out forwards';
+      } else { 
+            $githubz.style.animation = 'githubb 1.7s ease-out forwards';
+      }
+})
+window.addEventListener('scroll', function () { 
+      let value = this.window.scrollY;
+      if (value > 4800) {
+            $reactz.style.animation = 'react 1.7s ease-out forwards';
+      } else { 
+            $reactz.style.animation = 'reactb 1.7s ease-out forwards';
+      }
+})
 
+
+//5000~6150
 
 // window.addEventListener("scroll", function () { 
 //       if (this.scrollY > 600 && this.scrollY<1499) {
