@@ -533,7 +533,7 @@ from {
 .projectBox{
       background-color: #c5ba9a;
       width: 550px;
-      height: 100vh;
+      height: 98.3vh;
       margin-top: -100px;
       transform: translate(20%, 12%);
 }
@@ -545,32 +545,39 @@ from {
       position: absolute;
 }
 .myprojectOne{
-      background-color: #bebcb2;
+      background: url("로딩2.jpg");
       height: 700px;
       width: 480px;
-      left: 0%;
+      left: 8%;
       position: absolute;
       display: inline;
+      background-repeat: no-repeat;
+      background-size:contain;
 }
 .myprojectTwo {
-      background-color: #bebcb2;
+      background: url("로딩2.jpg");
       height: 700px;
       width: 480px;
-      left: 33%;
+      left: 37%;
+      background-repeat: no-repeat;
+      background-size:contain;
       position: absolute;
       display: inline;
 }
 .myprojectThree {
-      background-color: #bebcb2;
+      background: url("로딩2.jpg");
       height: 700px;
       width: 480px;
       position: absolute;
       left:66%;
+      background-repeat: no-repeat;
+      background-size:contain;
+
 }
 
 .contactMain {
       margin-top: 30px;
-      font-size: 70px;
+      font-size: 100px;
       font-weight: bold;
       color: #f9f7f1;
       left: 50%;
@@ -604,7 +611,6 @@ from {
 .email{
       margin-top: 20px;
       font-size: 30px;
-      font-weight: bold;
       font-family: 'KOTRALEAP';
 }
 .side{
@@ -855,8 +861,15 @@ from {
             {
                   display: none;
             }
-      .skillList,.aboutBox,.projectBox {
+      .skillList,.aboutBox {
             width: 150px;
+      
+      }
+      .projectBox{
+            width: 150px;
+            height: 103vh;
+            margin-top: -103px;
+            transform: translate(20%, 12%);
       }
       .side{
             font-size: 18px;
